@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <p>Please wait a few seconds, your product is being analysed</p>
                     `;
 
-                    fetch('http://127.0.0.1:5000/analyse', {
+                    fetch('https://shift-extension.onrender.com/analyse', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alternativesButton.style.display = "none";
 
         // Call the backend API to get alternatives
-        fetch('http://127.0.0.1:5000/alternatives', {
+        fetch('https://shift-extension.onrender.com/alternatives', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
