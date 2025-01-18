@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
                             <div class="rating">Rating: ${rating}</div>
                             <div class="summary">Summary: ${summary}</div>
                             <div class="detail">Detail: ${detail}</div>
-                            <div class="description">Description: ${description}</div>
                         `;
 
                         // Show the alternatives button
