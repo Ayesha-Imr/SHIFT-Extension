@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Product Analyzer",
+    "name": "SHIFT",
     "version": "1.0",
-    "description": "Extracts URL and sends it to a backend for analysis.",
+    "description": "Extracts text from webpage, send it to backend for analysis and returns result.",
     "permissions": [
         "activeTab",
         "scripting"
