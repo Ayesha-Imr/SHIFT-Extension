@@ -1,4 +1,4 @@
-# SHIFT - Eco-Friendly Product Analyzer
+# SHIFT - AI-Powered Browser Extension 🌱
 
 Make your shift towards a more sustainable lifestyle today.
 SHIFT is a Chrome extension that helps you analyze the sustainability and eco-friendliness of products and discover eco-friendly alternatives. With SHIFT, you can make informed, greener choices effortlessly.
@@ -95,7 +95,10 @@ The SHIFT extension relies on a backend server for processing product descriptio
      ```
     - This is required to access Github models.
 
-6. **Run the Backend Server**:
+6. **Modify popup.js**:
+   - Delete the popup.js file in the extension directory, and change the popup.txt file to popup.js instead.
+
+7. **Run the Backend Server**:
    - Start the backend server using the following command:
      ```sh
      python app.py
