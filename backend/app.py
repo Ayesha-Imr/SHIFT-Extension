@@ -4,7 +4,7 @@ import os
 from utils import analysis, get_alternatives
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "chrome-extension://nhifpbdpogmomajjilbgdjbmcdkebklf"}})
+CORS(app, resources={r"/*": {"origins": "chrome-extension://bpplgnhmfcoohmeppibphjoahlfaebhj"}})
 
 @app.route('/analyse', methods=['POST'])
 def analyse():
